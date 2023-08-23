@@ -1,5 +1,5 @@
 import './App.css';
-// import About from './components/About';
+import About from './components/About';
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1 >AMIT KUMAR - PORTFOLIO</h1>
       </header>
-      {/* <About /> */}
+      <About />
     </div>
   );
 }
