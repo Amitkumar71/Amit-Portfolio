@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import Skills from './components/skills';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <h1 >AMIT KUMAR - PORTFOLIO</h1>
       </header>
       <About />
+      <Skills />
     </div>
   );
 }

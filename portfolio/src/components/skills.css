@@ -1,0 +1,30 @@
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .section {
+    flex: 1;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    color: white;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
