@@ -6,7 +6,7 @@ function About() {
   return (
     <div className='about-me'>
       <h1>Hi Myself Amit Kumar</h1> 
-
+      <p>Experienced full stack web developer and tech enthusiast. Enthusiastic learner, currently focusing on mastering React and honing database design skills. Collaborative team player in the dynamic market landscape.</p>
       <p>AGE - 19 </p>
       <p>3rd Year BCA student at Hamaraja Surajmal Institute (IPU) in Delhi.</p>
     <p>Currently Learning React</p>
