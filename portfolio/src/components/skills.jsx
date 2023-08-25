@@ -4,10 +4,12 @@ import './skills.css';
 const Skills = () => {
   return (
     <div className="skills-container">
+      <h1 className='skill'>My Skills Include</h1>
       <div className="section">
         <h2>Frontend</h2>
         <ul>
           <li>React.js</li>
+          <li>JavaScript</li>
           <li>HTML</li>
           <li>CSS</li>
           <li>Bootstrap</li>

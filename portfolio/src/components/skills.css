@@ -5,6 +5,15 @@
   border-radius: 10px;
   color: white;
 }
+.skill{
+  color: red;
+  position: absolute;
+  top: 77%;
+  width: 94%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(249 234 234 / 50%);
+}
 
 .section,
 .section-2,
@@ -12,14 +21,19 @@
   flex: 1;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgb(13 255 0 / 50%);
   transition: box-shadow 0.3s;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .section:hover,
 .section-2:hover,
 .section-3:hover {
-box-shadow: 0 0 20px rgb(13 255 0 / 50%);
+/* box-shadow: 0 0 20px rgb(13 255 0 / 50%); */
+box-shadow: 0 0 20px rgb(129, 169, 27);
+
+
 }
 
 .section h2,
