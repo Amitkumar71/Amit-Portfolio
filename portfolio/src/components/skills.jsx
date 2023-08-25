@@ -1,4 +1,5 @@
 import React from 'react';
+import './skills.css';
 
 const Skills = () => {
   return (
@@ -12,7 +13,7 @@ const Skills = () => {
           <li>Bootstrap</li>
         </ul>
       </div>
-      <div className="section">
+      <div className="section-2">
         <h2>Backend</h2>
         <ul>
           <li>Python</li>
@@ -21,7 +22,7 @@ const Skills = () => {
           <li>MySQL</li>
         </ul>
       </div>
-      <div className="section">
+      <div className="section-3">
         <h2>Tools</h2>
         <ul>
           <li>Canva</li>
