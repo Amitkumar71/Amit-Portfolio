@@ -15,8 +15,8 @@ function App() {
       </header>
       <About />
       <Skills />
-      <ContactMe />
       <Projects />
+      <ContactMe />
     </div>
   );
 }
