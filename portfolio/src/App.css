@@ -1,6 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('C:\Users\Amit\OneDrive\Documents\GitHub\Amit-Portfolio\portfolio\src\components\images\background.png') fixed center/cover no-repeat;
+  font-family: Arial, sans-serif;
+}
+
 .App {
   text-align: center;
-  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 100%);
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgb(0 0 0) 20%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .App-header {

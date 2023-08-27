@@ -1,27 +1,34 @@
 import React from 'react';
 import './Projects.css'; // Import the CSS file for styling
+import Tools from './tools.png'; // Import the Tools component
+import AMS from './ams.png'; // Import the AMS component
+import project3 from './Project 3.png'; // Import the project 3 component
 
 const Projects = () => {
   const projectsData = [
     {
-      title: "Project 1",
-      imageSrc: "project1.jpg",
-      codeLink: "https://github.com/your-username/project1",
+      title: "Tools",
+      imageSrc: Tools,
+      codeLink: "https://github.com/Amitkumar71/Tools",
+      description:"This is the short description about the the Tools project which is used to manage the tools available on the internet."
     },
     {
-      title: "Project 2",
-      imageSrc: "project2.jpg",
+      title: "Attendance Management System",
+      imageSrc: AMS,
       codeLink: "https://github.com/your-username/project2",
+      description:"This is the short description about the the Attendance Management System project which is used to manage the attendance of the students."
     },
     {
       title: "Project 3",
-      imageSrc: "project3.jpg",
+      imageSrc: project3,
       codeLink: "https://github.com/your-username/project3",
+      description:"This is the short description about the the Project 3 project which I am curently working on."
     },
     {
       title: "Project 4",
-      imageSrc: "project4.jpg",
+      imageSrc: project3,
       codeLink: "https://github.com/your-username/project4",
+      description:"This is the short description about the the Project 4 project which I am curently working on."
     },
   ];
 
@@ -34,6 +41,7 @@ const Projects = () => {
           <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
             View Code
           </a>
+          <p className='project-description'>{project.description}</p>
         </div>
       ))}
     </div>
