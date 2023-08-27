@@ -10,25 +10,25 @@ const Projects = () => {
       title: "Tools",
       imageSrc: Tools,
       codeLink: "https://github.com/Amitkumar71/Tools",
-      description:"This is the short description about the the Tools project which is used to manage the tools available on the internet."
+      description: "This is the short description about the the Tools project which is used to manage the tools available on the internet."
     },
     {
       title: "Attendance Management System",
       imageSrc: AMS,
       codeLink: "https://github.com/your-username/project2",
-      description:"This is the short description about the the Attendance Management System project which is used to manage the attendance of the students."
+      description: "This is the short description about the the Attendance Management System project which is used to manage the attendance of the students."
     },
     {
       title: "Project 3",
       imageSrc: project3,
       codeLink: "https://github.com/your-username/project3",
-      description:"This is the short description about the the Project 3 project which I am curently working on."
+      description: "This is the short description about the the Project 3 project which I am curently working on."
     },
     {
       title: "Project 4",
       imageSrc: project3,
       codeLink: "https://github.com/your-username/project4",
-      description:"This is the short description about the the Project 4 project which I am curently working on."
+      description: "This is the short description about the the Project 4 project which I am curently working on."
     },
   ];
 

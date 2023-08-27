@@ -27,7 +27,6 @@
   transform: scale(1.05);
   box-shadow: 0 0 30px rgb(13 255 0 / 70%);
   background-color: black;
-  /* height: 400px; */
 }
 
 .project-card img {
@@ -44,12 +43,12 @@
 }
 
 .project-description {
-  opacity: 0; /* Initially hidden */
+  opacity: 0;
   transition: opacity 0.3s ease;
 }
 
 .project-card:hover .project-description {
-  opacity: 1; /* Display on hover */
+  opacity: 1;
 }
 
 .project-card a {

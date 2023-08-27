@@ -5,7 +5,8 @@
   border-radius: 10px;
   color: white;
 }
-.skill{
+
+.skill {
   color: red;
   position: absolute;
   top: 45%;
@@ -30,10 +31,7 @@
 .section:hover,
 .section-2:hover,
 .section-3:hover {
-/* box-shadow: 0 0 20px rgb(13 255 0 / 50%); */
-box-shadow: 0 0 20px rgb(129, 169, 27);
-
-
+  box-shadow: 0 0 20px rgb(129, 169, 27);
 }
 
 .section h2,
