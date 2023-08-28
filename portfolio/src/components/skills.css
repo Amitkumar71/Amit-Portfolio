@@ -1,19 +1,45 @@
 .skills-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; /* Change to column layout */
+  align-items: center;
   padding: 50px;
   border-radius: 10px;
   color: white;
 }
 
-.skill {
-  color: red;
-  position: absolute;
-  top: 45%;
-  width: 94%;
-  padding: 10px;
+.icon {
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.skills-heading {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Take full width */
+}
+
+.section,
+.section-2,
+.section-3 {
+  flex: 1;
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgb(249 234 234 / 50%);
+  box-shadow: 0 0 20px rgb(13 255 0 / 50%);
+  transition: box-shadow 0.3s;
 }
 
 .section,
