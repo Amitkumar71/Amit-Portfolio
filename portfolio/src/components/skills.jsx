@@ -16,28 +16,28 @@ const Skills = () => {
         <div className="section">
           <h2>Frontend</h2>
           <ul>
-            <li><FaReact className='icon' />React.js</li>
-            <li><BiLogoJavascript className='icon' />JavaScript</li>
-            <li><SiHtml5 className='icon'/>HTML</li>
-            <li><BiLogoCss3 className='icon'/>CSS</li>
-            <li><SiBootstrap className='icon'/>Bootstrap</li>
+            <li><FaReact className='icon' />   React.js</li>
+            <li><BiLogoJavascript className='icon' />   JavaScript</li>
+            <li><SiHtml5 className='icon'/>   HTML</li>
+            <li><BiLogoCss3 className='icon'/>   CSS</li>
+            <li><SiBootstrap className='icon'/>   Bootstrap</li>
           </ul>
         </div>
         <div className="section-2">
           <h2>Backend</h2>
           <ul>
-            <li><FaPython className='icon'/>Python</li>
-            <li><TbBrandDjango className='icon'/> Django</li>
-            <li><BiLogoFlask className='icon'/>Flask</li>
-            <li><SiMysql className='icon'/>MySQL</li>
+            <li><FaPython className='icon'/>   Python</li>
+            <li><TbBrandDjango className='icon'/>   Django</li>
+            <li><BiLogoFlask className='icon'/>   Flask</li>
+            <li><SiMysql className='icon'/>   MySQL</li>
           </ul>
         </div>
         <div className="section-3">
           <h2>Tools</h2>
           <ul>
-          <li><DiGit className='icon'/>Git</li>
-          <li><FaGithub className='icon'/>  Github</li>
-            <li><SiCanva className='icon' color='red'/>   Canva</li>
+          <li><DiGit className='icon'/>   Git</li>
+          <li><FaGithub className='icon'/>   Github</li>
+            <li><SiCanva className='icon'/>   Canva</li>
             <li><FaFigma className='icon'/>   Figma</li>
           </ul>
         </div>

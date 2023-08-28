@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 import selfImage from './self.jpg';
 
 function About() {
@@ -11,11 +11,12 @@ function About() {
         <img src={selfImage} alt="Amit Kumar" />
       </div>
       <div className='about-text'>
+        <h1>Hi' I am AMIT </h1>
         <p>
-          <FontAwesomeIcon icon={faLaptopCode} /> Experienced full stack web developer and tech enthusiast. Enthusiastic learner, currently focusing on mastering React and honing database design skills. Collaborative team player in the dynamic market landscape.
+          Full stack web developer and tech enthusiast. Enthusiastic learner, currently focusing on mastering React and honing database design skills. Collaborative team player in the dynamic market landscape.
         </p>
         <p>
-          <FontAwesomeIcon icon={faGraduationCap} /> Currently Learning React &amp; Database Design
+        <FontAwesomeIcon icon={faLaptopCode} /> Currently Learning React &amp; Database Design
         </p>
       </div>
     </div>

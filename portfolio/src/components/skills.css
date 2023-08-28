@@ -5,6 +5,8 @@
   padding: 50px;
   border-radius: 10px;
   color: white;
+  height: 450px;
+  align-items: center;
 }
 
 .icon {
@@ -79,6 +81,12 @@ ul ul {
 ul li {
   font-size: 16px;
   margin-bottom: 5px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: darkcyan;
+  border-radius: 20px;
 }
 
 .section img {
