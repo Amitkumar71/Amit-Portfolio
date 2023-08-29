@@ -1,8 +1,8 @@
 import React from 'react';
-import './Projects.css'; // Import the CSS file for styling
-import Tools from './tools.png'; // Import the Tools component
-import AMS from './ams.png'; // Import the AMS component
-import project3 from './Project 3.png'; // Import the project 3 component
+import './Projects.css';
+import Tools from './tools.png'; 
+import AMS from './ams.png'; 
+import project3 from './Project 3.png'; 
 
 const Projects = () => {
   const projectsData = [
@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: "Attendance Management System",
       imageSrc: AMS,
-      codeLink: "https://github.com/your-username/project2",
+      codeLink: "https://github.com/Anasdevs/Attendance-Management-System-2.0",
       description: "This is the short description about the the Attendance Management System project which is used to manage the attendance of the students."
     },
     {

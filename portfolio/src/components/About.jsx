@@ -11,7 +11,7 @@ function About() {
         <img src={selfImage} alt="Amit Kumar" />
       </div>
       <div className='about-text'>
-        <h1>Hi' I am AMIT </h1>
+        <h1>Hi' I am <span className='name'>AMIT</span> </h1>
         <p>
           Full stack web developer and tech enthusiast. Enthusiastic learner, currently focusing on mastering React and honing database design skills. Collaborative team player in the dynamic market landscape.
         </p>
