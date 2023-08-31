@@ -1,0 +1,17 @@
+.footer {
+    background-color: darkcyan;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heart {
+    color: #ff5757;
+  }
+  
+  .copyright {
+    margin: 0;
+    font-size: 14px;
+    color:black;
+    font-weight: bold;
+  }
+  
