@@ -59,3 +59,15 @@ p {
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+.social-icons {
+  display: flex;
+  gap: 5%;
+  margin-top: 10px;
+  align-items: center;
+  font-size: 25px;
+}
+
+.social-icon{
+  cursor: pointer;
+}

@@ -3,6 +3,7 @@ import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 import selfImage from './self.jpg';
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
 function About() {
   return (
@@ -17,6 +18,11 @@ function About() {
         </p>
         <p>
         <FontAwesomeIcon icon={faLaptopCode} /> Currently Learning React &amp; Database Design
+        </p>
+        <p className='social-icons'>Social's:
+          <FaLinkedin className='social-icon' onClick={() => window.open('https://www.linkedin.com/', '_blank')} />
+          <FaGithub className='social-icon' onClick={() => window.open('https://github.com/', '_blank')} />
+          <FaTwitter className='social-icon' onClick={() => window.open('https://twitter.com/', '_blank')} />
         </p>
       </div>
     </div>

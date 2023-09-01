@@ -10,19 +10,19 @@ const Projects = () => {
       title: "Tools",
       imageSrc: Tools,
       codeLink: "https://github.com/Amitkumar71/Tools",
-      description: "The Attendance Management System has been specifically designed to automate and streamline the attendance management process. It offers a digital platform that efficiently records, monitors, and analyzes student attendance data, replacing the traditional manual methods currently in use."
+      description: "Tools is a All-in-One Online Toolbox which eliminates the need for users to search and bookmark multiple individual tools. Everything they need is accessible from a single platform."
     },
     {
       title: "Attendance Management System",
       imageSrc: AMS,
       codeLink: "https://github.com/Anasdevs/Attendance-Management-System-2.0",
-      description: "Tools is a All-in-One Online Toolbox which eliminates the need for users to search and bookmark multiple individual tools. Everything they need is accessible from a single platform."
+      description: "The Attendance Management System has been specifically designed to automate and streamline the attendance management process. It offers a digital platform that efficiently records, monitors, and analyzes student attendance data, replacing the traditional manual methods currently in use."
     },
     {
       title: "Project 3",
       imageSrc: project3,
       codeLink: "https://github.com/your-username/project3",
-      description: "This is the short description about the the Project 3 project which I am curently working on."
+      description: "This is the short description about the Project 3 project which I am curently working on."
     },
     {
       title: "Project 4",
@@ -33,6 +33,8 @@ const Projects = () => {
   ];
 
   return (
+    <div className="projects-main">
+    <h1>My Projects Include</h1>
     <div className="projects-container">
       {projectsData.map((project, index) => (
         <div className="project-card" key={index}>
@@ -44,6 +46,7 @@ const Projects = () => {
           <p className='project-description'>{project.description}</p>
         </div>
       ))}
+    </div>
     </div>
   );
 };

@@ -55,7 +55,7 @@
 .project-card a {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #007bff;
+  background-color:darkcyan;
   color: white;
   border: none;
   border-radius: 5px;
@@ -64,5 +64,9 @@
 }
 
 .project-card a:hover {
-  background-color:#0056b3;
+  background-color:rgb(2, 91, 91);
+}
+
+.projects-main h1{
+  color: white;
 }
