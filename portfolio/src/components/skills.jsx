@@ -16,10 +16,10 @@ const Skills = () => {
         <div className="section">
           <h2>Frontend</h2>
           <ul>
-            <li><FaReact className='icon' />   React.js</li>
-            <li><BiLogoJavascript className='icon' />   JavaScript</li>
             <li><SiHtml5 className='icon'/>   HTML</li>
             <li><BiLogoCss3 className='icon'/>   CSS</li>
+            <li><FaReact className='icon' />   React.js</li>
+            <li><BiLogoJavascript className='icon' />   JavaScript</li>
             <li><SiBootstrap className='icon'/>   Bootstrap</li>
           </ul>
         </div>

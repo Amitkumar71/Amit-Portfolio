@@ -49,6 +49,7 @@
 
 .project-card:hover .project-description {
   opacity: 1;
+  color: white;
 }
 
 .project-card a {
@@ -63,6 +64,5 @@
 }
 
 .project-card a:hover {
-  background-color: yellowgreen;
-  border-color: green;
+  background-color:#0056b3;
 }
