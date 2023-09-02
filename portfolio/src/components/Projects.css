@@ -48,11 +48,6 @@
   color: white;
 }
 
-/* .project-card:hover .project-description {
-  opacity: 1;
-  color: white;
-} */
-
 .project-card a {
   display: inline-block;
   padding: 8px 16px;
@@ -70,4 +65,16 @@
 
 .projects-main h1{
   color: white;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {  
+  .project-card {
+    width: 100%;
+    margin-bottom: 5%;
+  }
 }

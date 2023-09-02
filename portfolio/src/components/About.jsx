@@ -7,9 +7,7 @@ import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 import resume from './Resume/cv.pdf';
 
 function About() {
-  // Function to open the resume in a new window
   const openResume = () => {
-    // Replace 'resume_url_here' with the actual URL of your resume file
     window.open(resume, '_blank');
   };
 
