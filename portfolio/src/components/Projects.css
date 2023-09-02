@@ -43,14 +43,15 @@
 }
 
 .project-description {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.project-card:hover .project-description {
   opacity: 1;
+  transition: opacity 0.3s ease;
   color: white;
 }
+
+/* .project-card:hover .project-description {
+  opacity: 1;
+  color: white;
+} */
 
 .project-card a {
   display: inline-block;

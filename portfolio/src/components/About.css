@@ -14,23 +14,24 @@
 
 .about-image {
   width: 250px;
-  height: 250px;
-  border-radius: 50%;
+  height: 300px;
+  border-radius: 110px 10px 110px 10px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgb(13 255 0 / 50%);
-  border: 8px solid darkcyan; 
-  aspect-ratio: 1;
-  clip-path: polygon(98.01% 63.95%,84.61% 86.09%,61.93% 98.56%,36.05% 98.01%,13.91% 84.61%,1.44% 61.93%,1.99% 36.05%,15.39% 13.91%,38.07% 1.44%,63.95% 1.99%,86.09% 15.39%,98.56% 38.07%);
+  box-shadow: 10px 10px 5px rgba(71, 5, 203, 0.5);
 }
 
 .about-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  transition: transform 0.2s;
 }
 
+.about-image img:hover {
+  transform: scale(1.2);
+}
+
+
 .about-text {
-  /* flex: 1 1; */
   margin-left: 5%;
   width: 40%;
   text-align: left;
@@ -63,11 +64,28 @@ p {
 .social-icons {
   display: flex;
   gap: 5%;
-  margin-top: 10px;
+  margin-top: 20px;
   align-items: center;
-  font-size: 25px;
+  font-size: 35px;
+  transform: all ease 1s;
+}
+.social-icon:hover{
+  cursor: pointer;
+  filter:drop-shadow(1px 5px 1px rgb(144, 0, 255));
 }
 
-.social-icon{
+.resume-button{
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: all ease 0.3s;
+}
+
+.resume-button:hover{
+  box-shadow: 5px 5px 5px rgba(84, 6, 241, 0.5);
   cursor: pointer;
 }

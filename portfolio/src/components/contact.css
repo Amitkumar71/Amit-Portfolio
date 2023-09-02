@@ -1,70 +1,100 @@
-/* ContactMeForm.css */
+/* contact.css */
 
 .contact-me-main {
-    padding: 40px;
-  }
-  
-  .contact-me-main h1 {
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 20px;
-  }
-  
-  .contact-me-form-main {
-    display: flex;
-    justify-content: flex-end; /* Align content to the right */
-    align-items: center;
-    min-height: 400px;
-    padding: 0 20px; /* Add left padding to create space on the left */
-  }
-  
-  .contact-me-content {
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    width: 100%;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-  }
-  
-  textarea {
-    resize: vertical;
-  }
-  
-  .contact-me-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: darkcyan;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-  }
-  
-  .contact-me-button:hover {
-    background-color: rgb(2, 91, 91);
-  }
-  
-  /* Validation error styles */
-  
-  .validation-error {
-    color: red;
-    font-size: 0.8rem;
-    margin-top: 5px;
-  }
-  
+  /* padding: 10px; */
+  padding-bottom: 4%;
+  /* Remove the fixed height */
+}
+
+.contact-me-main h1 {
+  font-size: 2rem;
+  /* color: white; */
+  margin-bottom: 20px;
+}
+
+.contact-me-content {
+  display: flex;
+  /* Remove min-height and adjust other properties */
+  padding: 0 20px;
+  flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+}
+
+.map {
+  width: 600px; /* Adjust as needed */
+  height: 210px;
+  border: 0;
+}
+
+/* Left Side (Contact Form) */
+.contact-form {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  width: 100%;
+  background-color: white;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 11px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.contact-me-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: darkcyan;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-me-button:hover {
+  background-color: rgb(2, 91, 91);
+}
+
+/* Right Side (Contact Info) */
+.contact-info {
+  flex: 1;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 30%;
+  width: 100%;
+  /* Remove height property */
+  background-color: #272E41;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+}
+
+.icons {
+  display: flex;
+  gap: 5%;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 35px;
+  transition: all ease 1s; /* Correct the 'transform' property */
+}
+
+.C-icon:hover {
+  cursor: pointer;
+  filter: drop-shadow(1px 5px 1px rgb(144, 0, 255));
+}

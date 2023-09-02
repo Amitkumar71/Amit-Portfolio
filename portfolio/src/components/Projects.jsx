@@ -1,8 +1,8 @@
 import React from 'react';
 import './Projects.css';
-import Tools from './tools.png'; 
-import AMS from './ams.png'; 
-import project3 from './Project 3.png'; 
+import Tools from './images/tools.png'; 
+import AMS from './images/ams.png'; 
+import project3 from './images/Project 3.png'; 
 
 const Projects = () => {
   const projectsData = [
@@ -34,7 +34,7 @@ const Projects = () => {
 
   return (
     <div className="projects-main">
-    <h1>My Projects Include</h1>
+    <h1>My Projects</h1>
     <div className="projects-container">
       {projectsData.map((project, index) => (
         <div className="project-card" key={index}>
