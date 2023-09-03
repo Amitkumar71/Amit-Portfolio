@@ -8,7 +8,7 @@
   color: white;
 }
 .name{
-  color: darkcyan;
+  color: rgb(2, 255, 255);
 }
 
 .about-image {
@@ -44,6 +44,7 @@ h1 {
 p {
   font-size: 16px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .skills {
@@ -86,4 +87,28 @@ p {
 .resume-button:hover{
   box-shadow: 5px 5px 5px rgba(84, 6, 241, 0.5);
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .about-me {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .about-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgba(71, 5, 203, 0.5);
+  }
+
+  .about-text {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .social-icons{
+    justify-content: center;
+  }
 }

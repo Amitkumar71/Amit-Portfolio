@@ -19,7 +19,7 @@ function About() {
       <div className='about-text'>
         <h1>Hi' I am <span className='name'>AMIT</span> </h1>
         <p>
-          Full stack web developer and tech enthusiast. Enthusiastic learner, currently focusing on mastering React and honing database design skills. Collaborative team player in the dynamic market landscape.
+          Full stack web developer, currently focusing on mastering <span className='name'>React</span> and honing <span className='name'>Database Design</span> skills. Collaborative team player in the dynamic market landscape.
         </p>
         <p>
           <FontAwesomeIcon icon={faLaptopCode} /> Currently Learning React &amp; Database Design
