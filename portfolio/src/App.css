@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0px;
-  background: url('C:\Users\Amit\OneDrive\Documents\GitHub\Amit-Portfolio\portfolio\src\components\images\background.png') fixed center/cover no-repeat;
+  background: url('./components/images/background.png') fixed center/cover no-repeat;
   font-family: Arial, sans-serif;
 }
 
