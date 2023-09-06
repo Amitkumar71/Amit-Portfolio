@@ -1,7 +1,7 @@
 import React from 'react';
 import './skills.css';
 import {FaGithub,FaFigma,FaPython,FaReact} from "react-icons/fa"
-import {SiCanva,SiMysql,SiHtml5,SiBootstrap} from "react-icons/si"
+import {SiCanva,SiMysql,SiHtml5,SiBootstrap,SiSass} from "react-icons/si"
 import {DiGit} from "react-icons/di";
 import {TbBrandDjango} from "react-icons/tb";
 import {BiLogoFlask,BiLogoJavascript,BiLogoCss3} from "react-icons/bi";
@@ -21,6 +21,7 @@ const Skills = () => {
             <li><FaReact className='icon' />   React.js</li>
             <li><BiLogoJavascript className='icon' />   JavaScript</li>
             <li><SiBootstrap className='icon'/>   Bootstrap</li>
+            <li><SiSass className='icon'/>   SASS</li>
           </ul>
         </div>
         <div className="section-2">
