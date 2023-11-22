@@ -1,7 +1,7 @@
 import React from 'react';
 import './skills.css';
-import {FaGithub,FaFigma,FaPython,FaReact} from "react-icons/fa"
-import {SiCanva,SiMysql,SiHtml5,SiBootstrap,SiSass} from "react-icons/si"
+import {FaGithub,FaFigma,FaPython,FaReact,FaAws} from "react-icons/fa"
+import {SiCanva,SiMysql,SiHtml5,SiBootstrap,SiSass,SiVercel} from "react-icons/si"
 import {DiGit} from "react-icons/di";
 import {TbBrandDjango} from "react-icons/tb";
 import {BiLogoFlask,BiLogoJavascript,BiLogoCss3} from "react-icons/bi";
@@ -36,10 +36,13 @@ const Skills = () => {
         <div className="section-3">
           <h2>Tools</h2>
           <ul>
-          <li><DiGit className='icon'/>   Git</li>
+          <li><FaAws className='icon'/>     AWS Cloud</li>
           <li><FaGithub className='icon'/>   Github</li>
-            <li><SiCanva className='icon'/>   Canva</li>
-            <li><FaFigma className='icon'/>   Figma</li>
+          <li><SiVercel className='icon'/>   Vercel</li>
+          <li><SiCanva className='icon'/>   Canva</li>
+          <li><FaFigma className='icon'/>   Figma</li>
+          <li><DiGit className='icon'/>   Git</li>
+
           </ul>
         </div>
       </div>

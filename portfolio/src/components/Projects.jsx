@@ -2,7 +2,9 @@ import React from 'react';
 import './Projects.css';
 import Tools from './images/tools.png'; 
 import AMS from './images/ams.png'; 
-import project3 from './images/Project 3.png'; 
+import project3 from './images/Project3.png';
+import project4 from './images/Project4.png';
+
 
 const Projects = () => {
   const projectsData = [
@@ -19,16 +21,16 @@ const Projects = () => {
       description: "The Attendance Management System has been specifically designed to automate and streamline the attendance management process. It offers a digital platform that efficiently records, monitors, and analyzes student attendance data, replacing the traditional manual methods currently in use."
     },
     {
-      title: "Project 3",
+      title: "Health Fit",
       imageSrc: project3,
-      codeLink: "https://github.com/your-username/project3",
-      description: "This is the short description about the Project 3 project which I am curently working on."
+      codeLink: "https://github.com/Amitkumar71/SIH-Prototype",
+      description: "Health Fit is a hybrid application specially designed to cater the mental health needs of the Indian population.Offers a variety of activities and techniques to help users manage their stress levels, catering to those with moderate to low stress."
     },
     {
-      title: "Project 4",
-      imageSrc: project3,
+      title: "Notes",
+      imageSrc: project4,
       codeLink: "https://github.com/your-username/project4",
-      description: "This is the short description about the the Project 4 project which I am curently working on."
+      description: "Notes a centralized platform for students to share their notes and study material with others. It is a platform where students can upload their notes and study material and can also download notes and study material uploaded by other students"
     },
   ];
 
