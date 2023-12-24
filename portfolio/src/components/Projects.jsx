@@ -24,12 +24,14 @@ const Projects = () => {
       title: "Health Fit",
       imageSrc: project3,
       codeLink: "https://github.com/Amitkumar71/SIH-Prototype",
+      LiveDemo: "https://sih-prototype.vercel.app/",
       description: "Health Fit is a hybrid application specially designed to cater the mental health needs of the Indian population.Offers a variety of activities and techniques to help users manage their stress levels, catering to those with moderate to low stress."
     },
     {
       title: "Notes",
       imageSrc: project4,
       codeLink: "https://github.com/your-username/project4",
+      LiveDemo: "https://notes-pages.vercel.app/",
       description: "Notes a centralized platform for students to share their notes and study material with others. It is a platform where students can upload their notes and study material and can also download notes and study material uploaded by other students"
     },
   ];
@@ -42,9 +44,12 @@ const Projects = () => {
         <div className="project-card" key={index}>
           <img src={project.imageSrc} alt={project.title} />
           <h3>{project.title}</h3>
+          <div className='btns'>
           <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
             View Code
           </a>
+          <a href={project.LiveDemo}>Live Demo</a>
+          </div>
           <p className='project-description'>{project.description}</p>
         </div>
       ))}

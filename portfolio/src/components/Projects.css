@@ -57,6 +57,14 @@
   border-radius: 5px;
   text-decoration: none;
   margin-top: 10px;
+  width: 40%;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+
 }
 
 .project-card a:hover {

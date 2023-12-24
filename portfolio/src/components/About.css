@@ -28,6 +28,11 @@
 .about-image img:hover {
   transform: scale(1.2);
 }
+.A-btn{
+  display: flex;
+  justify-content: center;
+  gap:5%
+}
 
 
 .about-text {

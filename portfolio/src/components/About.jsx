@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import selfImage from './images/self.png';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
-import resume from './Resume/Resume.pdf';
+import resume from './Resume/Resume(AMIT).pdf';
 
 function About() {
   const openResume = () => {
@@ -25,8 +25,8 @@ function About() {
           <FontAwesomeIcon icon={faLaptopCode} /> Currently Learning React &amp; Database Design
         </p>
         <p className='social-icons'>
-          <FaLinkedin className='social-icon' onClick={() => window.open('https://www.linkedin.com/', '_blank')} />
-          <FaGithub className='social-icon' onClick={() => window.open('https://github.com/', '_blank')} />
+          <FaLinkedin className='social-icon' onClick={() => window.open('https://www.linkedin.com/in/amit-kumar-970574227/','_blank')} />
+          <FaGithub className='social-icon' onClick={() => window.open('https://github.com/Amitkumar71', '_blank')} />
           <FaTwitter className='social-icon' onClick={() => window.open('https://twitter.com/', '_blank')} />
         </p>
         <button className='resume-button' onClick={openResume}>View Resume</button>
