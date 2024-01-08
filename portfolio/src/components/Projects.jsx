@@ -12,12 +12,14 @@ const Projects = () => {
       title: "Tools",
       imageSrc: Tools,
       codeLink: "https://github.com/Amitkumar71/Tools",
+      LiveDemo: "https://github.com/Amitkumar71/Tools",
       description: "Tools is a All-in-One Online Toolbox which eliminates the need for users to search and bookmark multiple individual tools. Everything they need is accessible from a single platform."
     },
     {
       title: "Attendance Management System",
       imageSrc: AMS,
       codeLink: "https://github.com/Anasdevs/Attendance-Management-System-2.0",
+      LiveDemo: "https://github.com/Anasdevs/Attendance-Management-System-2.0",
       description: "The Attendance Management System has been specifically designed to automate and streamline the attendance management process. It offers a digital platform that efficiently records, monitors, and analyzes student attendance data, replacing the traditional manual methods currently in use."
     },
     {
