@@ -4,7 +4,7 @@ import {FaGithub,FaFigma,FaPython,FaReact,FaAws} from "react-icons/fa"
 import {SiCanva,SiMysql,SiHtml5,SiBootstrap,SiSass,SiVercel} from "react-icons/si"
 import {DiGit} from "react-icons/di";
 import {TbBrandDjango} from "react-icons/tb";
-import {BiLogoFlask,BiLogoJavascript,BiLogoCss3} from "react-icons/bi";
+import {BiLogoFlask,BiLogoJavascript,BiLogoCss3,BiLogoPostgresql} from "react-icons/bi";
 import { IconContext } from "react-icons";
 
 const Skills = () => {
@@ -31,6 +31,7 @@ const Skills = () => {
             <li><TbBrandDjango className='icon'/>   Django</li>
             <li><BiLogoFlask className='icon'/>   Flask</li>
             <li><SiMysql className='icon'/>   MySQL</li>
+            <li><BiLogoPostgresql className='icon'/>   PostgreSQL</li>
           </ul>
         </div>
         <div className="section-3">

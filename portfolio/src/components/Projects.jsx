@@ -12,7 +12,7 @@ const Projects = () => {
       title: "Tools",
       imageSrc: Tools,
       codeLink: "https://github.com/Amitkumar71/Tools",
-      LiveDemo: "https://github.com/Amitkumar71/Tools",
+      LiveDemo: "https://online-tools-0hjk.onrender.com",
       description: "Tools is a All-in-One Online Toolbox which eliminates the need for users to search and bookmark multiple individual tools. Everything they need is accessible from a single platform."
     },
     {
