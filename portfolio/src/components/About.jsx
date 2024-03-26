@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import selfImage from './images/self.png';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
-import resume from './Resume/Resume(AMIT).pdf';
+import resume from './Resume/Amit Kumar_Resume.pdf';
 
 function About() {
   const openResume = () => {
