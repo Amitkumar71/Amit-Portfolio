@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import selfImage from './images/self.png';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
-import resume from './Resume/Amit Kumar_Resume.pdf';
+import resume from './Resume/Resume_Latest.pdf';
 
 function About() {
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+
   const openResume = () => {
-    window.open(resume, '_blank');
+    setIsDialogOpen(true);
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeDialog = () => {
+    setIsDialogOpen(false);
+    document.body.style.overflow = '';
   };
 
   return (
@@ -17,7 +25,7 @@ function About() {
         <img src={selfImage} alt="Amit Kumar" />
       </div>
       <div className='about-text'>
-        <h1>Hi' I am <span className='name'>AMIT</span> </h1>
+        <h1>Hi, I am <span className='name'>AMIT</span> </h1>
         <p>
           Full stack web developer, currently focusing on mastering <span className='name'>React</span> and honing <span className='name'>Database Design</span> skills. Collaborative team player in the dynamic market landscape.
         </p>
@@ -31,6 +39,16 @@ function About() {
         </p>
         <button className='resume-button' onClick={openResume}>View Resume</button>
       </div>
+
+      {isDialogOpen && (
+        <div className="dialog-box">
+          <button className="close-btn" onClick={closeDialog}>Close</button>
+
+          <iframe src={resume} className="resume-iframe" title="Resume"></iframe>
+        </div>
+      )}
+
+      <div className={`background ${isDialogOpen ? 'blur' : ''}`}></div>
     </div>
   );
 }

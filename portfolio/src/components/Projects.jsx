@@ -2,39 +2,47 @@ import React from 'react';
 import './Projects.css';
 import Project1 from './images/Stockflow.png'; 
 import AMS from './images/ams.png'; 
-import project3 from './images/Project3.png';
+import HealthFit from './images/Project3.png';
 import project4 from './images/Project4.png';
+import Chatapp from './images/Chatapp.png'
 
 
 const Projects = () => {
   const projectsData = [
     {
+      title: "Real Time Chat Application",
+      imageSrc: Chatapp,
+      codeLink: "https://github.com/Amitkumar71/Realtime-Chat-Room",
+      LiveDemo: "https://github.com/Amitkumar71/Realtime-Chat-Room",
+      description: "A dynamic chat platform developed using Django and Django Channels, supporting real-time messaging and multiple chat rooms."
+    },
+    {
       title: "StockFlow-Inventory Ledger",
       imageSrc: Project1,
       codeLink: "https://github.com/Anasdevs/Stock-management-system-msi-",
       LiveDemo: "https://github.com/Anasdevs/Stock-management-system-msi-",
-      description: "MSI Stock Management System is a comprehensive digital solution designed to streamline and optimize the management of various resources and supplies within the college premises. This user-friendly system provides administrator with an efficient way to track, monitor, and manage stocks."
+      description: "MSI Stock Management System is a comprehensive digital solution designed to streamline and optimize the management of various resources and supplies within the college premises."
     },
     {
       title: "Health Fit",
-      imageSrc: project3,
+      imageSrc: HealthFit,
       codeLink: "https://github.com/Amitkumar71/SIH-Prototype",
       LiveDemo: "https://sih-prototype.vercel.app/",
-      description: "Health Fit is a hybrid application specially designed to cater the mental health needs of the Indian population.Offers a variety of activities and techniques to help users manage their stress levels, catering to those with moderate to low stress."
+      description: "Health Fit is a hybrid application specially designed to cater the mental health needs of the Indian population.Offers a variety of activities and techniques to help users manage their stress levels."
     },
     {
       title: "Attendance Management System",
       imageSrc: AMS,
       codeLink: "https://github.com/Anasdevs/Attendance-Management-System-2.0",
       LiveDemo: "https://github.com/Anasdevs/Attendance-Management-System-2.0",
-      description: "The Attendance Management System has been specifically designed to automate and streamline the attendance management process. It offers a digital platform that efficiently records, monitors, and analyzes student attendance data, replacing the traditional manual methods currently in use."
+      description: "The Attendance Management System has been specifically designed to automate and streamline the attendance management process In our college Premises."
     },
     {
       title: "Notes",
       imageSrc: project4,
       codeLink: "https://github.com/your-username/project4",
       LiveDemo: "https://notes-pages.vercel.app/",
-      description: "Notes a centralized platform for students to share their notes and study material with others. It is a platform where students can upload their notes and study material and can also download notes and study material uploaded by other students"
+      description: "Notes a centralized platform for students to share their notes and study material with others."
     },
   ];
 
