@@ -53,7 +53,7 @@ const Projects = () => {
       {projectsData.map((project, index) => (
         <div className="project-card" key={index}>
           <img src={project.imageSrc} alt={project.title} />
-          <h3>{project.title}</h3>
+          <h3 className='font-bold p-3 font-size-l'>{project.title}</h3>
           <div className='btns'>
           <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
             View Code

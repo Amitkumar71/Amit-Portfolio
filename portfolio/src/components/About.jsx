@@ -5,6 +5,7 @@ import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import selfImage from './images/self.png';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 import resume from './Resume/Resume_Latest.pdf';
+import {motion} from 'framer-motion'
 
 function About() {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
@@ -20,7 +21,7 @@ function About() {
   };
 
   return (
-    <div className='about-me'>
+    <motion.div  className='about-me'>
       <div className='about-image'>
         <img src={selfImage} alt="Amit Kumar" />
       </div>
@@ -49,7 +50,7 @@ function About() {
       )}
 
       <div className={`background ${isDialogOpen ? 'blur' : ''}`}></div>
-    </div>
+    </motion.div>
   );
 }
 
