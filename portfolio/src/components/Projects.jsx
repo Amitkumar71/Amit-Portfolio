@@ -5,6 +5,7 @@ import AMS from './images/ams.png';
 import HealthFit from './images/Project3.png';
 import project4 from './images/Project4.png';
 import Chatapp from './images/Chatapp.png'
+import SimpleParallax from 'simple-parallax-js'
 
 
 const Projects = () => {
@@ -52,7 +53,9 @@ const Projects = () => {
     <div className="projects-container">
       {projectsData.map((project, index) => (
         <div className="project-card" key={index}>
+          <SimpleParallax orientation='down' scale={1.5}>
           <img src={project.imageSrc} alt={project.title} />
+          </SimpleParallax>
           <h3 className='font-bold p-3 font-size-l'>{project.title}</h3>
           <div className='btns'>
           <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
