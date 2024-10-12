@@ -4,6 +4,7 @@ import Skills from './components/skills';
 import ContactMe from './components/contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';

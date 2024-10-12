@@ -1,4 +1,6 @@
-import React from 'react';
+"use client"
+
+import {React, useEffect} from 'react';
 import './Projects.css';
 import Project1 from './images/Stockflow.png'; 
 import AMS from './images/ams.png'; 
@@ -6,9 +8,16 @@ import HealthFit from './images/Project3.png';
 import project4 from './images/Project4.png';
 import Chatapp from './images/Chatapp.png'
 import SimpleParallax from 'simple-parallax-js'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Projects = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS when this component is mounted
+  }, []);
+
   const projectsData = [
     {
       title: "Real Time Chat Application",
@@ -52,7 +61,7 @@ const Projects = () => {
     <h1>My Projects</h1>
     <div className="projects-container">
       {projectsData.map((project, index) => (
-        <div className="project-card" key={index}>
+        <div data-aos="zoom-in" className="project-card" key={index}>
           <SimpleParallax orientation='down' scale={1.5}>
           <img src={project.imageSrc} alt={project.title} />
           </SimpleParallax>
