@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
@@ -8,17 +8,17 @@ import resume from './Resume/Resume_Latest.pdf';
 import {motion} from 'framer-motion'
 
 function About() {
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  // const [isDialogOpen, setIsDialogOpen] = useState(false);
 
-  const openResume = () => {
-    setIsDialogOpen(true);
-    document.body.style.overflow = 'hidden';
-  };
+  // const openResume = () => {
+  //   setIsDialogOpen(true);
+  //   document.body.style.overflow = 'hidden';
+  // };
 
-  const closeDialog = () => {
-    setIsDialogOpen(false);
-    document.body.style.overflow = '';
-  };
+  // const closeDialog = () => {
+  //   setIsDialogOpen(false);
+  //   document.body.style.overflow = '';
+  // };
 
   return (
     <motion.div  className='about-me'>
@@ -38,18 +38,18 @@ function About() {
           <FaGithub className='social-icon' onClick={() => window.open('https://github.com/Amitkumar71', '_blank')} />
           <FaTwitter className='social-icon' onClick={() => window.open('https://twitter.com/', '_blank')} />
         </p>
-        <button className='resume-button' onClick={openResume}>View Resume</button>
+        <button className='resume-button' onClick={() => window.open(resume,'_blank')}>View Resume</button>
       </div>
 
-      {isDialogOpen && (
+      {/* {isDialogOpen && (
         <div className="dialog-box">
           <button className="close-btn" onClick={closeDialog}>Close</button>
 
           <iframe src={resume} className="resume-iframe" title="Resume"></iframe>
         </div>
-      )}
+      )} */}
 
-      <div className={`background ${isDialogOpen ? 'blur' : ''}`}></div>
+      {/* <div className={`background ${isDialogOpen ? 'blur' : ''}`}></div> */}
     </motion.div>
   );
 }
